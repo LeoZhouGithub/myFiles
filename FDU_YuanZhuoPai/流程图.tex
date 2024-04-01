@@ -1,0 +1,48 @@
+\usetikzlibrary{positioning, shapes, arrows}% 流程图
+%\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs,fontspec,tikz}
+\usetikzlibrary{shapes,arrows.meta,calc,positioning}
+  
+  % DNS数据融合的流程图
+  \begin{figure}[H]
+    \centering
+  \scalebox{0.8}{
+    \begin{tikzpicture}[node distance=0.7cm,
+        rec/.style={thick,rectangle, minimum width=3cm,minimum height=0.5cm,text centered,draw=#1,fill=#1!0},
+        arrow/.style={thick, ->,>=stealth},
+    arrow2/.style = {
+      draw = purple, very thick, {Latex[length = 4mm, width = 1.5mm]}-{Latex[length = 4mm, width = 1.5mm]},
+      }
+        ]
+            \node(rec1)     [rec=black]                          {初始湍流模型参数$\boldsymbol{\theta}_0$};
+            \node(rec2)     [rec=black,below = of rec1]          {拉丁超立方抽样};
+            \node(rec3)     [rec=black,below = of rec2]          {模型参数向量$\left[\boldsymbol{\theta} ^1,\boldsymbol{\theta} ^2,\boldsymbol{\theta} ^3,\cdots, \boldsymbol{\theta} ^n\right]$};
+            \node(rec4)     [rec=black,below = of rec3,xshift=-1.5cm]      {OpenFOAM湍流模型求解器};
+            \node(rec5)     [rec=black,left = of rec3]                     {网格及其他参数配置};
+      \node(rec14)     [rec=black,above = of rec5]                     {网格及其他参数配置};
+            \node(rec6)     [rec=black, below= of rec4]            {预测流场状态参数$\left[\boldsymbol{q}_f ^1,\boldsymbol{q}_f ^2,\boldsymbol{q}_f ^3,\cdots, \boldsymbol{q}_f ^n\right]$};
+            \node(rec7)     [rec=black,below =1.2cm of rec6,xshift=3.5cm]                     {DNS数据库};
+            \node(rec9)     [rec=red,fill=red!30,below =1.2cm of rec6,xshift=-3.8cm,font=\fontsize{15}{15}\selectfont]                     {集合卡尔曼滤波分析迭代过程};
+      \node(rec10)	[rec=black,below = of rec9,yshift=-0.4cm]				{优化后的湍流模型参数};	
+      \node(rec11)	[rec=black,below = of rec10,yshift=-0.4cm]			{基于数据融合方法的流场测量结果};	
+      \node(rec12)	[rec=red,below =3cm of rec7,yshift=-0.4cm,xshift=0cm,fill=red!60,font=\fontsize{18}{18}\selectfont]  {验证过程};
+      \node(rec13)	[rec=red,above =1cm of rec14,yshift=-0.3cm,fill=red!60,font=\fontsize{18}{18}\selectfont]			{CFD预测过程};
+      
+      \draw[arrow]   (rec1)  --  (rec2);
+      \draw[arrow]   (rec14)  --  (rec5);
+      \draw[arrow]   (rec2)  --  (rec3);
+      \draw[arrow]   (rec3.south)|-($(rec4.north)+(0,0.4)$) -- (rec4.north);
+      \draw[arrow]   (rec5.south)|-($(rec4.north)+(0,0.4)$) -- (rec4.north);
+      \draw[arrow]   (rec4)  --  (rec6);
+      \draw[arrow,draw = purple,very thick]   (rec7)|- ($(rec9.north)+(0,0.4)$) -- (rec9.north);
+      \draw[arrow,draw = purple,very thick]   (rec6.south)|-($(rec9.north)+(0,0.4)$) -- (rec9.north);
+      \draw[arrow]   (rec9)  --node[right]{结果输出}  (rec10);
+      \draw[arrow]   (rec10)  --node[right]{CFD重计算} (rec11);
+      \draw[arrow2]   (rec11)  --node[above]{验证分析} ($(rec11.east)+(3.5,0)$) -| (rec7);
+      \draw[very thick, dashed, draw = purple]($(rec5.west)+(-0.2,0)$) |- ($(rec1.north)+(0,0.6)$) -| ($(rec3.east)+(0.2,0)$) |- ($(rec6.south)+(0,-0.2)$) -| ($(rec5.west)+(-0.2,0)$);
+      \draw[very thick, dashed, draw = black]($(rec11.north west)+(-0.2,0.2)$) -| ($(rec7.north west)+(-0.2,0.2)$) -| ($(rec7.east)+(0.2,0)$) |- ($(rec11.south)+(0,-0.7)$) -| ($(rec11.north west)+(-0.2,0.2)$);
+  
+    \end{tikzpicture}}
+    \caption{基于DNS数据验证数据融合方法}
+    \label{fig: 基于DNS数据验证数据融合方法}
+    fhasdhfkafads
+  \end{figure}

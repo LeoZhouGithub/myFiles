@@ -1,0 +1,2922 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.7)  28 MAR 2023 09:26
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**流体常用方程
+(./流体常用方程.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-12-17> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen141
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-12-17 L3 programming layer (loader) 
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-10-26 L3 backend support: XeTeX
+\g__graphics_track_int=\count267
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count268
+\g__pdf_backend_annotation_int=\count269
+\g__pdf_backend_link_int=\count270
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-12-17 L3 Experimental document command parser
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count271
+\l__fontspec_language_int=\count272
+\l__fontspec_strnum_int=\count273
+\l__fontspec_tmp_int=\count274
+\l__fontspec_tmpa_int=\count275
+\l__fontspec_tmpb_int=\count276
+\l__fontspec_tmpc_int=\count277
+\l__fontspec_em_int=\count278
+\l__fontspec_emdef_int=\count279
+\l__fontspec_strong_int=\count280
+\l__fontspec_strongdef_int=\count281
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count282
+\g__um_fonts_used_int=\count283
+\l__um_primecount_int=\count284
+\g__um_primekern_muskip=\muskip17
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+\MT@toks=\toks22
+\MT@tempbox=\box54
+\MT@count=\count286
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen153
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count287
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2022/06/23 v3.0f Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count288
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count292
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen157
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2022-11-13 v7.00u Hyperref driver for XeTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count297
+\HyField@AnnotCount=\count298
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip53
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count301
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+No file 流体常用方程.aux.
+\openout1 = `流体常用方程.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 69.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 69.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 69.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 69.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 69.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 69.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
+(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
+(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
+(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
+(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 69.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 69.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
+(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 69.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 69.
+LaTeX Info: Redefining \microtypecontext on input line 69.
+Package microtype Info: Applying patch `item' on input line 69.
+Package microtype Info: Applying patch `toc' on input line 69.
+Package microtype Info: Applying patch `eqnum' on input line 69.
+Package microtype Info: Applying patch `footnote' on input line 69.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 69.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 科 (U+79D1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 无 (U+65E0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 纲 (U+7EB2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 论 (U+8BBA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 求 (U+6C42) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 解 (U+89E3) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 实 (U+5B9E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 验 (U+9A8C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 究 (U+7A76) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 和 (U+548C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 计 (U+8BA1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 算 (U+7B97) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 都 (U+90FD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 有 (U+6709) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 指 (U+6307) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 导 (U+5BFC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 意 (U+610F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 义 (U+4E49) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 这 (U+8FD9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 里 (U+91CC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 整 (U+6574) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 了 (U+4E86) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 无 (U+65E0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 纲 (U+7EB2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 雷 (U+96F7) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 诺 (U+8BFA) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:75: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:75: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:75: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:75: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:75: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:75: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:75: LaTeX Error: File `https://www.zhihu.com/equation?tex=Re+=+/frac\{uL\}\{/nu\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ....com/equation?tex=Re+=+/frac\{uL\}\{/nu\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 征 (U+5F81) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 长 (U+957F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 选 (U+9009) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 取 (U+53D6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 要 (U+8981) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 依 (U+4F9D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 据 (U+636E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 具 (U+5177) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 究 (U+7A76) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 问 (U+95EE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 题 (U+9898) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 而 (U+800C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 言 (U+8A00) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 也 (U+4E5F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 取 (U+53D6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 决 (U+51B3) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 科 (U+79D1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 人 (U+4EBA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 员 (U+5458) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 主 (U+4E3B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 观 (U+89C2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 选 (U+9009) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 择 (U+62E9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:78: LaTeX Error: File `https://www.zhihu.com/equation?tex=/nu' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...cs{https://www.zhihu.com/equation?tex=/nu}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 运 (U+8FD0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 粘 (U+7C98) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 雷 (U+96F7) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 诺 (U+8BFA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 反 (U+53CD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 应 (U+5E94) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 了 (U+4E86) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 惯 (U+60EF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 和 (U+548C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 粘 (U+7C98) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 判 (U+5224) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 断 (U+65AD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 场 (U+573A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 处 (U+5904) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 湍 (U+6E4D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 还 (U+8FD8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 层 (U+5C42) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 一 (U+4E00) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 个 (U+4E2A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 努 (U+52AA) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 塞 (U+585E) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 尔 (U+5C14) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:83: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:83: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:83: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:83: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:83: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:83: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:83: LaTeX Error: File `https://www.zhihu.com/equation?tex=Nu=/frac\{hL\}\{/lambda\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...om/equation?tex=Nu=/frac\{hL\}\{/lambda\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 征 (U+5F81) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 长 (U+957F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 换 (U+6362) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:86: LaTeX Error: File `https://www.zhihu.com/equation?tex=/lambda' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...ttps://www.zhihu.com/equation?tex=/lambda}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 导 (U+5BFC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 导 (U+5BFC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 实 (U+5B9E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 验 (U+9A8C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 和 (U+548C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 计 (U+8BA1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 算 (U+7B97) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 反 (U+53CD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 映 (U+6620) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 换 (U+6362) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 能 (U+80FD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 一 (U+4E00) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 个 (U+4E2A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 重 (U+91CD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 要 (U+8981) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 无 (U+65E0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 纲 (U+7EB2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 普 (U+666E) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 朗 (U+6717) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:91: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:91: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:91: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:91: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:91: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:91: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:91: LaTeX Error: File `https://www.zhihu.com/equation?tex=Pr=/frac\{/nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 ...nu\}\{/alpha\}=/frac\{C_p/mu\}\{/lambda\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:93: LaTeX Error: File `https://www.zhihu.com/equation?tex=/alpha' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...https://www.zhihu.com/equation?tex=/alpha}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 湍 (U+6E4D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 普 (U+666E) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 朗 (U+6717) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:98: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:98: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:98: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:98: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:98: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:98: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:98: LaTeX Error: File `https://www.zhihu.com/equation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...ation?tex=Pr_t=/frac\{/nu_t\}\{/alpha_t\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 简 (U+7B80) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 单 (U+5355) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 说 (U+8BF4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 就 (U+5C31) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 湍 (U+6E4D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 所 (U+6240) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 贡 (U+8D21) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 献 (U+732E) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 和 (U+548C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 佩 (U+4F69) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 克 (U+514B) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 莱 (U+83B1) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:104: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:104: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:104: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:104: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:104: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:104: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:104: LaTeX Error: File `https://www.zhihu.com/equation?tex=Pe+=+/frac\{uL\}\{/alpha\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 .../equation?tex=Pe+=+/frac\{uL\}\{/alpha\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 问 (U+95EE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 题 (U+9898) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:107: LaTeX Error: File `https://www.zhihu.com/equation?tex=/alpha' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...ttps://www.zhihu.com/equation?tex=/alpha}
+                                                   是热扩散率。
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 斯 (U+65AF) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 坦 (U+5766) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 顿 (U+987F) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:111: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:111: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:111: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:111: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:111: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:111: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:111: LaTeX Error: File `https://www.zhihu.com/equation?tex=St=/frac\{h\}\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...\{/rho+u+C_p\}=/frac\{Nu\}\{Re/cdot+Pr\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 递 (U+9012) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 到 (U+5230) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 容 (U+5BB9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 马 (U+9A6C) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 赫 (U+8D6B) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 运 (U+8FD0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 当 (U+5F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 地 (U+5730) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 声 (U+58F0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 毕 (U+6BD5) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 渥 (U+6E25) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:121: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:121: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:121: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:121: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:121: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:121: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:121: LaTeX Error: File `https://www.zhihu.com/equation?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...n?tex=Bi+=+/frac\{h_f+L_s\}\{/lambda_s\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 当 (U+5F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 固 (U+56FA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 内 (U+5185) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 部 (U+90E8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 导 (U+5BFC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 外 (U+5916) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 部 (U+90E8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 相 (U+76F8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 耦 (U+8026) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 合 (U+5408) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 时 (U+65F6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 内 (U+5185) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 部 (U+90E8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 阻 (U+963B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 外 (U+5916) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 部 (U+90E8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 阻 (U+963B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 格 (U+683C) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 拉 (U+62C9) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 晓 (U+6653) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 夫 (U+592B) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:127: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:127: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:127: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:127: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:127: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:127: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:127: LaTeX Error: File `https://www.zhihu.com/equation?tex=Gr=/frac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...ac\{g/beta+/Delta+T+L\^{}3\}\{/nu\^{}2\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 浮 (U+6D6E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 升 (U+5347) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 粘 (U+7C98) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 自 (U+81EA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 然 (U+7136) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 究 (U+7A76) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 非 (U+975E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 关 (U+5173) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 键 (U+952E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 瑞 (U+745E) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 利 (U+5229) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+
+./流体常用方程.tex:133: LaTeX Error: File `https://www.zhihu.com/equation?tex=Ra=+Gr/cdot+Pr' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...ww.zhihu.com/equation?tex=Ra=+Gr/cdot+Pr}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 自 (U+81EA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 然 (U+7136) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 傅 (U+5085) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 立 (U+7ACB) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 叶 (U+53F6) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:139: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:139: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:139: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:139: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:139: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:139: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:139: LaTeX Error: File `https://www.zhihu.com/equation?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 ...ion?tex=Fo+=+/frac\{/alpha+t\}\{L\^{}2\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[1
+
+]
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 领 (U+9886) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 域 (U+57DF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 非 (U+975E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 稳 (U+7A33) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 态 (U+6001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 热 (U+70ED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 存 (U+5B58) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 储 (U+50A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 施 (U+65BD) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 密 (U+5BC6) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:145: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:145: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:145: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:145: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:145: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:145: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:145: LaTeX Error: File `https://www.zhihu.com/equation?tex=Sc=/frac\{/nu\}\{D\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 ...hu.com/equation?tex=Sc=/frac\{/nu\}\{D\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 舍 (U+820D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 伍 (U+4F0D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 德 (U+5FB7) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:151: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:151: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:151: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:151: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:151: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:151: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:151: LaTeX Error: File `https://www.zhihu.com/equation?tex=Sh+=+/frac\{h\textquotesingle {}L\}\{D\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...=Sh+=+/frac\{h\textquotesingle{}L\}\{D\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 对 (U+5BF9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 扩 (U+6269) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 散 (U+6563) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 传 (U+4F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 韦 (U+97E6) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 伯 (U+4F2F) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:157: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:157: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:157: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:157: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:157: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:157: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:157: LaTeX Error: File `https://www.zhihu.com/equation?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...?tex=We=/frac\{/rho+u\^{}2+L\}\{/sigma\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 惯 (U+60EF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 面 (U+9762) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 张 (U+5F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 之 (U+4E4B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 气 (U+6C14) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 泡 (U+6CE1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 学 (U+5B66) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 里 (U+91CC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 使 (U+4F7F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 非 (U+975E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 多 (U+591A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:160: LaTeX Error: File `https://www.zhihu.com/equation?tex=/sigma' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...ttps://www.zhihu.com/equation?tex=/sigma}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 面 (U+9762) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 张 (U+5F20) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 库 (U+5E93) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 朗 (U+6717) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:165: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:165: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:165: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:165: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:165: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:165: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:165: LaTeX Error: File `https://www.zhihu.com/equation?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...?tex=Cr+=+/frac\{u/Delta+t\}\{/Delta+X\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 在 (U+5728) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 计 (U+8BA1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 算 (U+7B97) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 学 (U+5B66) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 无 (U+65E0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 论 (U+8BBA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 欧 (U+6B27) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 拉 (U+62C9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 还 (U+8FD8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 粒 (U+7C92) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 法 (U+6CD5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 拉 (U+62C9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 格 (U+683C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 朗 (U+6717) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 日 (U+65E5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 都 (U+90FD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 要 (U+8981) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 考 (U+8003) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 虑 (U+8651) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 最 (U+6700) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 大 (U+5927) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 网 (U+7F51) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 格 (U+683C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 间 (U+95F4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 距 (U+8DDD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 或 (U+6216) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 粒 (U+7C92) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 间 (U+95F4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 距 (U+8DDD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 以 (U+4EE5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 及 (U+53CA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 时 (U+65F6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 间 (U+95F4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 步 (U+6B65) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 长 (U+957F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 关 (U+5173) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 斯 (U+65AF) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 劳 (U+52B3) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 哈 (U+54C8) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 尔 (U+5C14) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:171: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:171: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:171: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:171: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:171: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:171: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:171: LaTeX Error: File `https://www.zhihu.com/equation?tex=St+=+/frac\{fL\}\{u\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 ...u.com/equation?tex=St+=+/frac\{fL\}\{u\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 非 (U+975E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 (U+5E38) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 周 (U+5468) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 期 (U+671F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 漩 (U+6F29) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 涡 (U+6DA1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 发 (U+53D1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 生 (U+751F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 频 (U+9891) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 弗 (U+5F17) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 劳 (U+52B3) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 德 (U+5FB7) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:177: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:177: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:177: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:177: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:177: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:177: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:177: LaTeX Error: File `https://www.zhihu.com/equation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...quation?tex=Fr=/frac\{u\}\{/sqrt\{gL\}\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 这 (U+8FD9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 里 (U+91CC) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 特 (U+7279) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 征 (U+5F81) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 外 (U+5916) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 场 (U+573A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 惯 (U+60EF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 外 (U+5916) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 值 (U+503C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 克 (U+514B) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 努 (U+52AA) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 森 (U+68EE) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:183: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:183: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:183: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:183: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:183: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:183: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:183: LaTeX Error: File `https://www.zhihu.com/equation?tex=Kn=/frac\{/lambda\}\{L\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...om/equation?tex=Kn=/frac\{/lambda\}\{L\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 这 (U+8FD9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 里 (U+91CC) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:185: LaTeX Error: File `https://www.zhihu.com/equation?tex=/lambda' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 ...tps://www.zhihu.com/equation?tex=/lambda}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 分 (U+5206) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 平 (U+5E73) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 均 (U+5747) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 自 (U+81EA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 由 (U+7531) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 程 (U+7A0B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 当 (U+5F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 小 (U+5C0F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 于 (U+4E8E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 时 (U+65F6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 可 (U+53EF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 认 (U+8BA4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 为 (U+4E3A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 连 (U+8FDE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 续 (U+7EED) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 介 (U+4ECB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 质 (U+8D28) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 邦 (U+90A6) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 德 (U+5FB7) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:190: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:190: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:190: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:190: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:190: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:190: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:190: LaTeX Error: File `https://www.zhihu.com/equation?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 ...?tex=Bd=/frac\{/rho+g+r\^{}2\}\{/sigma\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 (U+5176) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 微 (U+5FAE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 重 (U+91CD) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 加 (U+52A0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 速 (U+901F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 液 (U+6DB2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 滴 (U+6EF4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 半 (U+534A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 径 (U+5F84) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 是 (U+662F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 航 (U+822A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 天 (U+5929) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 领 (U+9886) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 域 (U+57DF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 会 (U+4F1A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 到 (U+5230) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 一 (U+4E00) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 个 (U+4E2A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 无 (U+65E0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 量 (U+91CF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 纲 (U+7EB2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 查 (U+67E5) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 森 (U+68EE) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-bold]:mapping=tex-text;!
+./流体常用方程.tex:196: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:196: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:196: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:196: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:196: Missing endcsname inserted.
+<to be read again> 
+                   textbraceleft 
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:196: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textbraceleft invalid in file name. Lost: fi ...
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:196: LaTeX Error: File `https://www.zhihu.com/equation?tex=Ri+=+/frac\{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...{g+/nabla+/rho\}\{/rho+(/nabla+u)\^{}2\}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 表 (U+8868) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 浮 (U+6D6E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 升 (U+5347) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 项 (U+9879) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 流 (U+6D41) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 剪 (U+526A) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 切 (U+5207) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 项 (U+9879) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 比 (U+6BD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 当 (U+5F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 密 (U+5BC6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 度 (U+5EA6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 差 (U+5DEE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 较 (U+8F83) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 小 (U+5C0F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 时 (U+65F6) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:mapping=tex-text;!
+./流体常用方程.tex:199: Missing endcsname inserted.
+<to be read again> 
+                   textquotesingle 
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:199: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textquotesingle invalid in file name. Lost: f...
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:199: Missing endcsname inserted.
+<to be read again> 
+                   textquotesingle 
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:199: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textquotesingle invalid in file name. Lost: f...
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./流体常用方程.tex:199: Missing endcsname inserted.
+<to be read again> 
+                   textquotesingle 
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./流体常用方程.tex:199: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: textquotesingle invalid in file name. Lost: f...
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./流体常用方程.tex:199: LaTeX Error: File `https://www.zhihu.com/equation?tex=g\textquotesingle {}' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 ...ihu.com/equation?tex=g\textquotesingle{}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 替 (U+66FF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 代 (U+4EE3) in font [lmroman10-regular]:mapping=tex-text;!
+
+./流体常用方程.tex:200: LaTeX Error: File `https://www.zhihu.com/equation?tex=g' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...ics{https://www.zhihu.com/equation?tex=g}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 具 (U+5177) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 参 (U+53C2) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 考 (U+8003) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 假 (U+5047) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 设 (U+8BBE) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:mapping=tex-text;!
+[2] (./流体常用方程.aux) )
+(\end occurred when \ifx on line 199 was incomplete)
+(\end occurred when \ifx on line 199 was incomplete)
+(\end occurred when \ifx on line 199 was incomplete)
+(\end occurred when \ifmmode on line 196 was incomplete)
+(\end occurred when \ifx on line 196 was incomplete)
+(\end occurred when \ifmmode on line 196 was incomplete)
+(\end occurred when \ifx on line 196 was incomplete)
+(\end occurred when \ifmmode on line 196 was incomplete)
+(\end occurred when \ifx on line 196 was incomplete)
+(\end occurred when \ifmmode on line 190 was incomplete)
+(\end occurred when \ifx on line 190 was incomplete)
+(\end occurred when \ifmmode on line 190 was incomplete)
+(\end occurred when \ifx on line 190 was incomplete)
+(\end occurred when \ifmmode on line 190 was incomplete)
+(\end occurred when \ifx on line 190 was incomplete)
+(\end occurred when \ifmmode on line 183 was incomplete)
+(\end occurred when \ifx on line 183 was incomplete)
+(\end occurred when \ifmmode on line 183 was incomplete)
+(\end occurred when \ifx on line 183 was incomplete)
+(\end occurred when \ifmmode on line 183 was incomplete)
+(\end occurred when \ifx on line 183 was incomplete)
+(\end occurred when \ifmmode on line 177 was incomplete)
+(\end occurred when \ifx on line 177 was incomplete)
+(\end occurred when \ifmmode on line 177 was incomplete)
+(\end occurred when \ifx on line 177 was incomplete)
+(\end occurred when \ifmmode on line 177 was incomplete)
+(\end occurred when \ifx on line 177 was incomplete)
+(\end occurred when \ifmmode on line 171 was incomplete)
+(\end occurred when \ifx on line 171 was incomplete)
+(\end occurred when \ifmmode on line 171 was incomplete)
+(\end occurred when \ifx on line 171 was incomplete)
+(\end occurred when \ifmmode on line 171 was incomplete)
+(\end occurred when \ifx on line 171 was incomplete)
+(\end occurred when \ifmmode on line 165 was incomplete)
+(\end occurred when \ifx on line 165 was incomplete)
+(\end occurred when \ifmmode on line 165 was incomplete)
+(\end occurred when \ifx on line 165 was incomplete)
+(\end occurred when \ifmmode on line 165 was incomplete)
+(\end occurred when \ifx on line 165 was incomplete)
+(\end occurred when \ifmmode on line 157 was incomplete)
+(\end occurred when \ifx on line 157 was incomplete)
+(\end occurred when \ifmmode on line 157 was incomplete)
+(\end occurred when \ifx on line 157 was incomplete)
+(\end occurred when \ifmmode on line 157 was incomplete)
+(\end occurred when \ifx on line 157 was incomplete)
+(\end occurred when \ifmmode on line 151 was incomplete)
+(\end occurred when \ifx on line 151 was incomplete)
+(\end occurred when \ifmmode on line 151 was incomplete)
+(\end occurred when \ifx on line 151 was incomplete)
+(\end occurred when \ifmmode on line 151 was incomplete)
+(\end occurred when \ifx on line 151 was incomplete)
+(\end occurred when \ifmmode on line 145 was incomplete)
+(\end occurred when \ifx on line 145 was incomplete)
+(\end occurred when \ifmmode on line 145 was incomplete)
+(\end occurred when \ifx on line 145 was incomplete)
+(\end occurred when \ifmmode on line 145 was incomplete)
+(\end occurred when \ifx on line 145 was incomplete)
+(\end occurred when \ifmmode on line 139 was incomplete)
+(\end occurred when \ifx on line 139 was incomplete)
+(\end occurred when \ifmmode on line 139 was incomplete)
+(\end occurred when \ifx on line 139 was incomplete)
+(\end occurred when \ifmmode on line 139 was incomplete)
+(\end occurred when \ifx on line 139 was incomplete)
+(\end occurred when \ifmmode on line 127 was incomplete)
+(\end occurred when \ifx on line 127 was incomplete)
+(\end occurred when \ifmmode on line 127 was incomplete)
+(\end occurred when \ifx on line 127 was incomplete)
+(\end occurred when \ifmmode on line 127 was incomplete)
+(\end occurred when \ifx on line 127 was incomplete)
+(\end occurred when \ifmmode on line 121 was incomplete)
+(\end occurred when \ifx on line 121 was incomplete)
+(\end occurred when \ifmmode on line 121 was incomplete)
+(\end occurred when \ifx on line 121 was incomplete)
+(\end occurred when \ifmmode on line 121 was incomplete)
+(\end occurred when \ifx on line 121 was incomplete)
+(\end occurred when \ifmmode on line 111 was incomplete)
+(\end occurred when \ifx on line 111 was incomplete)
+(\end occurred when \ifmmode on line 111 was incomplete)
+(\end occurred when \ifx on line 111 was incomplete)
+(\end occurred when \ifmmode on line 111 was incomplete)
+(\end occurred when \ifx on line 111 was incomplete)
+(\end occurred when \ifmmode on line 104 was incomplete)
+(\end occurred when \ifx on line 104 was incomplete)
+(\end occurred when \ifmmode on line 104 was incomplete)
+(\end occurred when \ifx on line 104 was incomplete)
+(\end occurred when \ifmmode on line 104 was incomplete)
+(\end occurred when \ifx on line 104 was incomplete)
+(\end occurred when \ifmmode on line 98 was incomplete)
+(\end occurred when \ifx on line 98 was incomplete)
+(\end occurred when \ifmmode on line 98 was incomplete)
+(\end occurred when \ifx on line 98 was incomplete)
+(\end occurred when \ifmmode on line 98 was incomplete)
+(\end occurred when \ifx on line 98 was incomplete)
+(\end occurred when \ifmmode on line 91 was incomplete)
+(\end occurred when \ifx on line 91 was incomplete)
+(\end occurred when \ifmmode on line 91 was incomplete)
+(\end occurred when \ifx on line 91 was incomplete)
+(\end occurred when \ifmmode on line 91 was incomplete)
+(\end occurred when \ifx on line 91 was incomplete)
+(\end occurred when \ifmmode on line 83 was incomplete)
+(\end occurred when \ifx on line 83 was incomplete)
+(\end occurred when \ifmmode on line 83 was incomplete)
+(\end occurred when \ifx on line 83 was incomplete)
+(\end occurred when \ifmmode on line 83 was incomplete)
+(\end occurred when \ifx on line 83 was incomplete)
+(\end occurred when \ifmmode on line 75 was incomplete)
+(\end occurred when \ifx on line 75 was incomplete)
+(\end occurred when \ifmmode on line 75 was incomplete)
+(\end occurred when \ifx on line 75 was incomplete)
+(\end occurred when \ifmmode on line 75 was incomplete)
+(\end occurred when \ifx on line 75 was incomplete) 
+Here is how much of TeX's memory you used:
+ 18896 strings out of 476778
+ 388644 string characters out of 5805976
+ 1847979 words of memory out of 5000000
+ 38831 multiletter control sequences out of 15000+600000
+ 512923 words of font info for 39 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,6n,121p,999b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on 流体常用方程.pdf (2 pages).

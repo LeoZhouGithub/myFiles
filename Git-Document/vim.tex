@@ -1,0 +1,65 @@
+\PassOptionsToPackage{quiet}{fontspec}  %depress the problem of font
+\documentclass{ctexart}
+\setmainfont{Times New Roman}
+\begin{document}
+
+\begin{itemize}
+    \item 三种模式
+    \\ 命令行模式 command line （在这个模式下，不能输入文本，可以在文本间移动，删除一行文本，复制粘贴，跳转指定行，撤销操作等），输入模式 insert mode， 底线命令模式 last line mode。
+    \item 输入模式下常用命令
+    \\ HOME / END \qquad 行首 / 行尾
+    \\ Insert \qquad 插入
+    \\ Page Up / Page Down \qquad 上 / 下翻页
+    \\ gg  \qquad 跳转到文件开头
+    \\ G  \qquad 跳转到文件末尾
+    \\ dd  \qquad 删除光标所在一整行数据，且临时存储到缓存区 (类似于 剪切)
+    \\ p  \qquad 将指定缓存区内容放在光标位置之下；整行文本放在行下面，若是非整行文本则放在光标后面
+    \\ P  \qquad 将指定缓冲区的内容放到当前光标的位置之上；整行文本放在行下面，若是非整行文本则放在光标后面
+    \\ u  \qquad 撤销最近的修改，针对所有修改
+    \\ U  \qquad 撤销对当前行上做的所有修改
+    \\ r  \qquad	替换光标位置上的一个字符，但不会进入 insert 模式，先按 r 再按要替换成的字符，也可以 2r 把光标后面两个都替换掉
+    \\ .   \qquad 重复上一次的修改 -- 注意该命令是英文符号点
+    \\ >>  \qquad 向右移动本行一段距离
+    \\ <<  \qquad 向左移动本行一段距离
+    \\ yy  \qquad 复制整行文本到临时缓存区 
+    \\ Ctrl + f  \qquad 将光标向下翻满屏，通常每次翻屏24行
+    \\ Ctrl + b  \qquad 将光标向上翻满屏，通常每次翻屏24行
+    \\ Ctrl + d   \qquad  将光标向下翻半屏，通常每次翻屏12行
+    \\ Ctrl + u   \qquad  将光标向上翻半屏，通常每次翻屏12行
+
+    \item 输入模式
+    \\ i \qquad 在光标的左侧输入文本，光标右侧文本向右移动
+    \\ I \qquad 在光标所在行的行首输入文本，相当于在行首执行了 i 命令
+    \\ A \qquad 在光标所在行的尾部进行输入文本，相当于在光标行尾执行a命令
+    \item 底线命令模式
+    \\ ：\qquad 从编辑模式进入底线命令模式，\emph{一定要在英文模式下输入：}
+    \\ :q \qquad 退出
+    \\ :wq \qquad 保存退出
+    \\ :\%s/x/y/g  \qquad 将“x”全局替换为“y”
+    \\ /word \qquad 查找word
+    \\ :w 	\qquad 只保存文件，但不退出 vim 编辑器
+    \\ ZZ  \qquad 保存文件且退出 vim 编辑器
+    \\ :q! \qquad 不保存文件，直接退出 vim 编辑器
+    \\ :start,endd  \qquad 从第 start 行开始到 end 行进行删除操作 最后一个 d 表示删除，如 :3,4d
+    \\ :! command  \qquad 暂时离开vim编辑器去到指令模式下执行 command 命令显示结果，如 :!ls
+    \\ :/string  \qquad 从文件首部开始查找到尾部；按 n 键可以跳到下一个，N 上一个，另外按 / 键后，按上下键可以找到以前查找的记录，同样的也有记录
+    \\ :?string  	\qquad 同上，从当前光标向文件首部查找
+    \\:set nu   	\qquad 显示行号 也可以输入 set number
+    \\:set nonu    \qquad 取消行号
+    \\:set ai/noai   \qquad 开启/关闭自动缩进
+
+    \item vim 中批量注释
+    \\批量注释：\begin{itemize}
+        \item   ctrl + v 进入块选择模式，然后移动光标选中你要注释的行，
+        \item  按大写的 I 进入行首插入模式输入注释符号；例如：\#号或者\/\/(双斜线)，
+        \item  输入完毕之后，按两下 ESC，Vim 会自动将你选中的所有行首都加上注释。
+    \end{itemize}
+
+
+\item 批量取消注释：
+\begin{itemize}
+    \item  ctrl + v 进入块选择模式，选中你要删除的行首的注释符号，
+    \item 按 d 即可删除注释。
+\end{itemize}
+\end{itemize}
+\end{document}
