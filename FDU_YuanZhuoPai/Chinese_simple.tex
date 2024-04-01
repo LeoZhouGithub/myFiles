@@ -1,0 +1,30 @@
+\PassOptionsToPackage{quiet}{fontspec}  %depress the problem of font
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+
+\title{\textbf{圆桌派问答日志}}
+\author{}
+\date{\today}
+\linespread{1.5}
+\newcounter{problemname}
+\newenvironment{problem}{\stepcounter{problemname}\par\noindent\textbf{问\arabic{problemname}. }}{\\\par}
+\newenvironment{solution}{\par\noindent\textbf{答. }}{\\\par}
+\newenvironment{note}{\par\noindent\textbf{论题\arabic{problemname}的注记. }}{\\\par}
+
+\begin{document}
+
+\maketitle
+
+\begin{problem}
+    马英九为何这样？
+\end{problem}
+
+\begin{solution}
+    每个人都有自己的理想，也会根据这个理想去约束自己的行为。 
+\end{solution}
+
+\begin{note}
+    这里是注记. \emph{没注记的情况下说明引用论点和讨论者。}
+\end{note}
+
+\end{document}
